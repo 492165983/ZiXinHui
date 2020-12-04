@@ -1,0 +1,37 @@
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.no_space {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pagin_main {
+  padding: 30px 0 40px;
+  display: flex;
+  justify-content: center;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #f57425 !important;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: #fff !important;
+}
+.cursor {
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.truncate {
+  display: block;
+  overflow: hidden;
+}
+a {
+  color: #666;
+  text-decoration: none;
+  outline: none;
+}
